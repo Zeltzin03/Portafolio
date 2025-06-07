@@ -1,0 +1,81 @@
+#main-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(144,210,216);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+body{
+  background-image: url(assets/globos_colores.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  font-size: 16px;
+}
+    
+.container{
+    background-color: rgb(255,236,184);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     border-radius: 10px;
+}
+.letra{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.carousel-inner img {
+  height: 600px;        /* Puedes ajustar este valor */
+  object-fit: contain;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .carousel-inner img {
+    max-height: 250px;
+  }
+  }
+
+  .button{
+  background-color: rgb(144,210,216);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  }
+.button:hover {
+  background-color: rgb(120, 180, 185);
+  }
+.alert {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* espacio entre ícono y texto */
+  max-width: 400px;  /* opcional para que no sea muy ancho */
+  margin: 30px auto; /* para centrar horizontalmente con margen */
+}
+
+.alert svg {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.alert > div {
+  margin: 0; /* elimina márgenes extra */
+  line-height: 1.3;
+  flex-grow: 1;
+}
+
+.barra{
+  background-color: rgb(235,218,218);
+  text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}

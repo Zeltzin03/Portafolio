@@ -1,0 +1,71 @@
+body {
+    background-color:rgb(255,227,159);
+}
+
+h1 {
+    color: rgb(121, 50, 187);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#titulo-principal {
+    color: rgb(59, 4, 66);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.borde-cuadro {
+    padding: 3px 10px;
+    border: rgb(110, 22, 22) 5px solid;
+    border-radius: 20px;
+}
+
+.texto-fondo {
+    color: rgb(145, 29, 64); 
+    background-color: rgb(234,192,134);
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.accordion-button {
+  background-color: rgb(255,205,148); /* Color de fondo cuando está colapsado */
+  color: rgb(59, 4, 66); /* Color del texto */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(255,205,148); /* Color cuando está abierto */
+  color: rgb(59, 4, 66);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 30px;
+}

@@ -1,0 +1,126 @@
+/* Paleta: #bda0a2, #ffe6db, #d1eaee, #cbc8b5, #efb0a9 */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffe6db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 650px;
+  margin: auto;
+}
+
+.avatar {
+  background-color: #ffe6db;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.avatar img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #efb0a9;
+  transition: transform 0.3s ease;
+}
+
+.avatar img:hover {
+  transform: scale(1.05);
+}
+
+
+h1 {
+  margin: 0.5rem 0;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #bda0a2;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.frase {
+  font-style: italic;
+  color: #cbc8b5;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.social-icons {
+  margin: 1rem 0;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #efb0a9;
+  font-size: 1.5rem;
+  margin: 0 0.6rem;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #d1eaee;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #bda0a2;
+  font-size: 1.3rem;
+}
+
+.projects {
+  list-style: none;
+  padding: 0;
+  color: #333;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.projects li {
+  margin: 0.5rem 0;
+}
+
+.skills {
+  font-size: 2rem;
+  color: #d1eaee;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.btn-toggle-custom {
+  background-color: #efb0a9; /* color principal */
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-toggle-custom:hover {
+  background-color: #bda0a2;
+  color: #fff;
+  transform: scale(1.05);
+}
